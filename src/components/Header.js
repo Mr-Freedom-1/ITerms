@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './Header.scss';
 import Generate from './Generate/Generate';
-import PrivPol from './Details/PrivPol';
+import PrivPol from './Details/Details';
 import Pricing from './Pricing';
 import Blog from './Blog/Blog';
 import BlogDetail from './Blog/BlogDetail';

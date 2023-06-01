@@ -4,12 +4,12 @@ import DetailsOnline from './DetailsOnline';
 import DetailsSwiper from './DetailsSwiper';
 import DetailsProtection from './DetailsProtection';
 import DetailsBlog from './DetailsBlog';
-import './PrivPol.scss';
+import './Details.scss';
 import { useTranslation } from 'react-i18next';
 
 import { Link } from 'react-router-dom';
 
-const PrivPol = () => {
+const Details = () => {
   const { t } = useTranslation();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -39,4 +39,4 @@ const PrivPol = () => {
     </>);
 };
 
-export default PrivPol;
+export default Details;
